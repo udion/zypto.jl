@@ -18,7 +18,7 @@ The package currently provides the following methods: <br>
 * <code>auto_corr(f,n,w)</code> : returns the *auto correlation* of the *n-bit input boolean function f* at the value *n-bit vector w*
 * <code>non_linearity(f,n)</code> : returns the *nonlinearity* of the *n-bit input boolean function f*
 ### Methods for n X m sbox
-* <code>transformSbox(sbox,n,m)</code> : returns the array containing the *coordinate boolean functionsof the sbox*
+* <code>transformSbox(sbox,n,m)</code> : returns the array containing the *coordinate boolean functions of the sbox*
 * <code>ddt(sbox,n,m)</code> : returns the *Difference Distribution Table (DDT)* of the sbox
 * <code>sbox_nonlinearity(sbox,n,m)</code> : returns the *non linearity of the sbox*
 
