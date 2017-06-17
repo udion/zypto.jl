@@ -2,7 +2,7 @@
 **zypto** : is a package to provide methods to analyse boolean functions and sboxes and there cryptographic properties
 
 ## Introduction
-zypto is written in julia to provide methods which are generally used in the analysis of boolean functions and cryptographic components such as s-boxes, this is intended to speedup up the selection process for the components such as sboxes (or boolean functions) as and when required for the people working in areas related to cryptanalysis.
+zypto is written in julia to provide methods which are generally used in the analysis of Boolean functions and cryptographic components such as s-boxes, this is intended to speedup up the selection process for the components such as sboxes (or boolean functions) as and when required for the people working in areas related to cryptanalysis.
 The API is designed to take input the boolean functions and sboxes as *linear array*
 
 ## API
