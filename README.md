@@ -14,7 +14,12 @@ The package currently provides the following methods: <br>
 * <code>vec_xor(v1,v2)</code> : returns the bitwise xor of the vectors *v1 and v2*
 * <code>walsh_trans(f,n,w)</code> : returns the *walsh transform* of the *n bit input boolean function f* (represented as linear array of length 2<sup>n</sup>) at the point represented by *n-bit vector w*
 * <code>cross_corr(f1,f2,n,w)</code> : returns the *cross correlation* of two *n-bit input boolean functions f1 and f2* at the point *n-bit vector w*
-* <code>auto_corr(f,n,w)</code> : returns the *auto correlation* of the *n-bit input boolean function* at the value *n-bit vector w*
-* <code>non_linearity(f,n)</code> : returns the *nonlinearity* of the *n-bit input boolean function*
+* <code>auto_corr(f,n,w)</code> : returns the *auto correlation* of the *n-bit input boolean function f* at the value *n-bit vector w*
+* <code>non_linearity(f,n)</code> : returns the *nonlinearity* of the *n-bit input boolean function f*
+### Methods for n X m sbox
+* <code>transformSbox(sbox,n,m)</code> : returns the array containing the *coordinate boolean functionsof the sbox*
+* <code>ddt(sbox,n,m)</code> : returns the *Difference Distribution Table (DDT)* of the sbox
+* <code>sbox_nonlinearity(sbox,n,m)</code> : returns the *non linearity of the sbox*
+
 
 ## Installation and Usages
