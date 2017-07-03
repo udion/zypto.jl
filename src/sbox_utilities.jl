@@ -39,3 +39,23 @@ function sbox_nonlinearity(sbox,n,m)
   end
   min_n
 end
+
+function sbox2string(sbox,unit_size)
+  sbox_str = ""
+  for j in sbox
+    sbox_str = join([sbox_str,hex(j,unit_size)])
+  end
+  return sbox_str
+end
+
+function string2sbox(sbox_str, unit_size)
+  if unit_size <= 2
+    sbox = UInt8[]
+  else
+    sbox = UInt[]
+  end
+  for i in 1:unit_size:length(sbox_str)
+    push!(sbox,parse(Int,sbox_str[i:i+unit_size-1],16))
+  end
+  return sbox
+end
